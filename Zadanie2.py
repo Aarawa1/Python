@@ -17,7 +17,6 @@ def checkList(list):
 
   return newList
 
-
 list = []
 secondList = [10, 10, 20, 30, 30, 50, 60, 60]
 A = [1, 1, 3, 2, 2, 2, 1]

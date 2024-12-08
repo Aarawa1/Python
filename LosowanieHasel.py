@@ -20,7 +20,7 @@ def generatePassword():
 def main():
   password = generatePassword()
 
-  print("Generiertes Passwort:", password)
+  print("Generated password: ", password)
 
 
 main()

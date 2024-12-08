@@ -1,10 +1,11 @@
 import random
 
+# Tworzy liste i zwraca ja
 def createList():
   list = []
 
-  itemsAmount = random.randint(1, 20)
-  for _ in range(itemsAmount):
+  itemsAmount = random.randint(1, 20) # randomowe wybieranie ile elementow ma ta lista posiadac
+  for _ in range(itemsAmount): # petla, od 0 do randomowo wybranej dlugosci
     list.append(random.randint(1, 20))
 
   return list
